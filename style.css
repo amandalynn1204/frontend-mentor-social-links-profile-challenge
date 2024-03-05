@@ -1,11 +1,65 @@
 body {
   font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+img {
+  border-radius: 100%;
+  width: 100px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 14px;
+  color: hsl(75, 94%, 57%);
+}
+
+p {
+  font-size: 14px;
+  margin: 25px 0;
 }
 
 footer {
   font-size: 11px;
   text-align: center;
+  opacity: 0.6;
 }
 footer a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(75, 94%, 57%);
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 300px;
+  margin: 150px auto;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.social-links a {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 800;
+  transition: all 150ms ease-in-out;
+}
+
+.social-links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
 }
